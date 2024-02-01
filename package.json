@@ -6,10 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "secretlint": "secretlint --maskSecrets --secretlintignore .gitignore '**/*'",
-    "fix": "next lint --fix && secretlint --maskSecrets --secretlintignore .gitignore '**/*' && prettier --write .",
+    "eslint": "next lint",
     "markuplint": "markuplint \"./**/*.tsx\"",
+    "secretlint": "secretlint --maskSecrets --secretlintignore .gitignore '**/*'",
+    "lint": "next lint | secretlint --maskSecrets --secretlintignore .gitignore '**/*'",
+    "fix": "next lint --fix && secretlint --maskSecrets --secretlintignore .gitignore '**/*' && prettier --write .",
     "prepare": "husky"
   },
   "dependencies": {

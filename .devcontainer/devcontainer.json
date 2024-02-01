@@ -3,6 +3,13 @@
   // 先程作ったDockerfileを指定する
   "dockerFile": "../Dockerfile",
   "customizations": {
-    // vscodeの設定や拡張機能を指定できる。お好みで。
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "yusukehirao.vscode-markuplint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+      ],
+    },
   },
 }
