@@ -4,5 +4,13 @@
   "semi": true,
   "trailingComma": "all",
   "singleQuote": true,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": ".devcontainer/devcontainer.json",
+      "options": {
+        "trailingComma": "none"
+      }
+    }
+  ]
 }

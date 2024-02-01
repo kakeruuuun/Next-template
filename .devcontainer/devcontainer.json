@@ -8,8 +8,8 @@
         "dbaeumer.vscode-eslint",
         "yusukehirao.vscode-markuplint",
         "esbenp.prettier-vscode",
-        "bradlc.vscode-tailwindcss",
-      ],
-    },
-  },
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
 }
