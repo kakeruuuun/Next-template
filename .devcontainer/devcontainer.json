@@ -1,0 +1,8 @@
+{
+  "name": "Next tutorial",
+  // 先程作ったDockerfileを指定する
+  "dockerFile": "../Dockerfile",
+  "customizations": {
+    // vscodeの設定や拡張機能を指定できる。お好みで。
+  },
+}
